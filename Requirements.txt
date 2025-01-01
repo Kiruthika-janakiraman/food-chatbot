@@ -1,4 +1,0 @@
-spacy
-streamlit==1.20.0
-scikit-learn==1.1.2
-nltk==3.7
