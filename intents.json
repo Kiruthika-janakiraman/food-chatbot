@@ -1,0 +1,599 @@
+{
+    "intents": [
+      {
+        "tag": "food_nutrition",
+        "patterns": [
+          "What are the nutrients in quinoa?",
+          "How much fiber is in a sweet potato?",
+          "What is the calorie content of a large egg?",
+          "How much protein is in tofu?",
+          "What are the health benefits of tomatoes?"
+        ],
+        "response": [
+          "Quinoa is high in protein, fiber, and essential amino acids. It also contains iron, magnesium, and B vitamins.",
+          "A medium-sized sweet potato has about 4 grams of fiber and is a great source of vitamin A.",
+          "A large egg contains approximately 70 calories, 6 grams of protein, and 5 grams of fat.",
+          "Tofu is a great source of protein, with about 8 grams per 3.5-ounce serving. It also provides calcium and iron.",
+          "Tomatoes are rich in antioxidants, particularly lycopene, and are beneficial for heart health and reducing cancer risk."
+        ]
+      },
+      {
+        "tag": "food_benefits",
+        "patterns": [
+          "What are the benefits of eating garlic?",
+          "Why is eating nuts good for health?",
+          "What is the benefit of drinking lemon water?",
+          "Why should I eat blueberries?",
+          "What are the health benefits of chia seeds?"
+        ],
+        "response": [
+          "Garlic is known for its immune-boosting properties, and it helps lower cholesterol levels and blood pressure.",
+          "Nuts provide healthy fats, protein, and fiber, supporting heart health and weight management.",
+          "Lemon water can help detoxify the body, improve digestion, and boost vitamin C intake.",
+          "Blueberries are high in antioxidants, promoting brain health, improving memory, and protecting the body from oxidative stress.",
+          "Chia seeds are rich in omega-3 fatty acids, fiber, and protein, aiding in digestion and supporting heart health."
+        ]
+      },
+      {
+        "tag": "recipe_suggestion",
+        "patterns": [
+          "Can you suggest a healthy vegetarian lunch?",
+          "What can I make with shrimp for dinner?",
+          "Give me a dessert idea using dark chocolate.",
+          "Can you recommend a soup recipe?",
+          "What is a good meal prep recipe?"
+        ],
+        "response": [
+          "Try a roasted vegetable quinoa bowl with hummus and a tahini dressing for a healthy vegetarian lunch.",
+          "You could make a shrimp stir-fry with vegetables or a shrimp and avocado salad for dinner.",
+          "For dessert, make a dark chocolate avocado mousse or chocolate-dipped strawberries.",
+          "A warming vegetable lentil soup is a healthy option. Or try a chicken noodle soup for a comforting choice.",
+          "For meal prep, consider making a batch of grilled chicken with roasted sweet potatoes and steamed broccoli."
+        ]
+      },
+      {
+        "tag": "recipe_filter",
+        "patterns": [
+          "Can you suggest dairy-free recipes?",
+          "Show me some paleo-friendly meals.",
+          "Give me a low-fat dessert recipe.",
+          "Can you recommend a quick vegan lunch?",
+          "Find me some high-protein vegetarian dishes."
+        ],
+        "response": [
+          "A great dairy-free recipe is a coconut milk curry with vegetables and rice.",
+          "Try a paleo-friendly dish like grilled salmon with asparagus and roasted root vegetables.",
+          "A low-fat dessert could be baked apple slices with a sprinkle of cinnamon and stevia.",
+          "For a quick vegan lunch, try a quinoa salad with chickpeas, avocado, and lemon vinaigrette.",
+          "A high-protein vegetarian dish could be a lentil stew with quinoa or chickpea stir-fry with tofu."
+        ]
+      },
+      {
+        "tag": "food_alternative",
+        "patterns": [
+          "What can I use instead of sour cream?",
+          "What is a good substitute for butter in baking?",
+          "Can I replace sugar with honey in baking?",
+          "What can I use instead of cheese?",
+          "What is a non-dairy substitute for yogurt?"
+        ],
+        "response": [
+          "You can use Greek yogurt, cashew cream, or avocado as a substitute for sour cream.",
+          "In baking, you can substitute butter with coconut oil, applesauce, or mashed bananas.",
+          "Yes, honey can be used instead of sugar, but you might need to reduce other liquids in the recipe.",
+          "To replace cheese, try nutritional yeast, vegan cheese, or cashew cream for a creamy texture.",
+          "Non-dairy substitutes for yogurt include almond milk yogurt, coconut milk yogurt, or cashew-based yogurt."
+        ]
+      },
+      {
+        "tag": "ingredient_recipe",
+        "patterns": [
+          "Find me a recipe with strawberries.",
+          "What can I cook with salmon?",
+          "Suggest a recipe using sweet potatoes.",
+          "What can I make with spinach and eggs?",
+          "Find me a recipe that uses coconut milk."
+        ],
+        "response": [
+          "You can make a fresh strawberry salad with goat cheese and balsamic dressing, or try strawberry smoothies.",
+          "You can make baked salmon with lemon and dill, or try salmon stir-fry with vegetables.",
+          "A great recipe with sweet potatoes is roasted sweet potato fries or a sweet potato casserole.",
+          "Try making a spinach and egg breakfast casserole or a simple spinach and egg scramble.",
+          "A delicious recipe with coconut milk is coconut curry with vegetables or a creamy coconut milk smoothie."
+        ]
+      },
+      {
+        "tag": "cooking_tips",
+        "patterns": [
+          "How do I make my pasta less sticky?",
+          "What is the best way to cook chicken breasts?",
+          "How do I avoid burning my cookies?",
+          "What is the proper way to cook rice?",
+          "How can I make my smoothie thicker?"
+        ],
+        "response": [
+          "To avoid sticky pasta, stir it occasionally and add olive oil or a small amount of salt to the water.",
+          "To cook chicken breasts properly, cook them on medium heat and use a thermometer to ensure they reach 165°F.",
+          "To avoid burning cookies, make sure to check the oven frequently and rotate your baking sheet halfway through.",
+          "To cook rice, rinse it before cooking, use the correct water-to-rice ratio (usually 2:1), and let it sit for 10 minutes after cooking.",
+          "To make a thicker smoothie, add more frozen fruits like bananas or berries, or use avocado or yogurt."
+        ]
+      },
+      {
+        "tag": "food_health",
+        "patterns": [
+          "What foods should I avoid for high blood pressure?",
+          "What is the best food to eat for healthy skin?",
+          "Which foods help boost immunity?",
+          "What should I eat to lower cholesterol?",
+          "What are foods that support brain health?"
+        ],
+        "response": [
+          "To manage high blood pressure, avoid excess salt, processed foods, and fried foods. Focus on potassium-rich foods like bananas and leafy greens.",
+          "For healthy skin, eat foods rich in antioxidants like berries, avocados, nuts, and seeds.",
+          "Foods rich in vitamin C like citrus fruits, bell peppers, and leafy greens are great for boosting immunity.",
+          "To lower cholesterol, consume more fiber-rich foods like oats, beans, and fruits, and limit saturated fats.",
+          "To support brain health, eat omega-3-rich foods like salmon, walnuts, and flaxseeds, along with antioxidants from berries."
+        ]
+      },
+      {
+        "tag": "food_item",
+        "patterns": [
+          "Tell me the health benefits of bananas.",
+          "What are the benefits of eating almonds?",
+          "What is the nutritional value of honey?",
+          "How is kale good for health?",
+          "What does garlic do for the body?"
+        ],
+        "response": [
+          "Bananas are rich in potassium and vitamin B6, which help maintain heart health and support muscle function.",
+          "Almonds provide healthy fats, protein, and vitamin E, supporting brain function and heart health.",
+          "Honey contains antioxidants and has anti-inflammatory properties. It can soothe a sore throat and promote better digestion.",
+          "Kale is a nutrient-dense leafy green rich in vitamins A, C, and K, and is great for supporting eye health and reducing inflammation.",
+          "Garlic is known for boosting the immune system, reducing blood pressure, and improving heart health."
+        ]
+      },
+      {
+        "tag": "diet_type",
+        "patterns": [
+          "What is the difference between keto and paleo diets?",
+          "What can I eat on a Mediterranean diet?",
+          "How does the DASH diet work?",
+          "Can you explain intermittent fasting?",
+          "What foods are part of a Whole30 diet?"
+        ],
+        "response": [
+          "The keto diet is a low-carb, high-fat diet, while the paleo diet focuses on whole, unprocessed foods like meat, fruits, and vegetables.",
+          "On a Mediterranean diet, you'll eat foods like whole grains, healthy fats, fruits, vegetables, fish, and limited red meat.",
+          "The DASH diet focuses on lowering sodium and increasing foods like fruits, vegetables, lean proteins, and low-fat dairy to control blood pressure.",
+          "Intermittent fasting involves alternating periods of eating and fasting to help manage weight and improve metabolic health.",
+          "The Whole30 diet eliminates processed foods, sugars, dairy, grains, and legumes for 30 days to reset your eating habits."
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello!",
+          "Hi there!",
+          "Good morning!",
+          "Hey!",
+          "How are you?"
+        ],
+        "response": [
+          "Hello! How can I assist you today?",
+          "Hi! How can I help you with your food questions?",
+          "Good morning! What would you like to know about food today?",
+          "Hey there! Need any food advice?",
+          "I'm doing great, thanks for asking! How can I help you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye!",
+          "See you later!",
+          "Talk to you soon!",
+          "Bye!",
+          "Take care!"
+        ],
+        "response": [
+          "Goodbye! Have a great day!",
+          "See you later! Stay healthy!",
+          "Talk to you soon! Take care!",
+          "Bye! Come back anytime if you have more questions!",
+          "Take care! Have a great meal!"
+        ]
+      },
+      {
+        "tag": "extra_queries",
+        "patterns": [
+          "Can you help me with cooking tips?",
+          "What should I eat to improve my metabolism?",
+          "Can you suggest a recipe for my family?",
+          "How can I make my food healthier?",
+          "Tell me more about the Mediterranean diet."
+        ],
+        "response": [
+          "Sure! For a quick cooking tip, always prep your ingredients before you start cooking.",
+          "To improve metabolism, focus on eating more protein, staying hydrated, and adding spices like chili and ginger to your meals.",
+          "I can suggest a chicken and vegetable casserole, or a healthy pasta with lean protein and vegetables.",
+          "To make your food healthier, try reducing added sugar, using healthier fats, and incorporating more whole grains and vegetables.",
+          "The Mediterranean diet focuses on whole, unprocessed foods, healthy fats like olive oil, plenty of fruits and vegetables, and moderate fish and meat consumption."
+        ]
+      },
+      {
+        "tag": "food_pairing",
+        "patterns": [
+          "What foods go well with cheese?",
+          "What can I pair with red wine?",
+          "Give me a good pairing for chicken.",
+          "What goes well with avocado?",
+          "What are some good side dishes for steak?"
+        ],
+        "response": [
+          "Cheese pairs well with fruits like grapes and apples, nuts, crackers, and wines such as Chardonnay or Cabernet Sauvignon.",
+          "Red wine pairs beautifully with meats like steak or lamb, as well as dark chocolate and rich cheeses.",
+          "Chicken pairs well with vegetables like broccoli, roasted potatoes, or a side salad. For sauces, try honey mustard or a creamy garlic sauce.",
+          "Avocado pairs excellently with toast, salads, eggs, and even smoothies. You can also add it to salsas or sandwiches.",
+          "Side dishes that go well with steak include mashed potatoes, grilled vegetables, or a fresh green salad with a vinaigrette dressing."
+        ]
+      },
+      {
+        "tag": "food_allergies",
+        "patterns": [
+          "What are some nut-free snack ideas?",
+          "Can you suggest gluten-free recipes?",
+          "What should I avoid if I'm allergic to dairy?",
+          "Give me some peanut-free recipe suggestions.",
+          "What can I eat if I have a soy allergy?"
+        ],
+        "response": [
+          "Nut-free snack ideas include rice cakes, sunflower seed butter, veggie sticks with hummus, and fruit.",
+          "For gluten-free recipes, try quinoa salad with roasted veggies, gluten-free pasta with marinara sauce, or grilled chicken with a side of roasted potatoes.",
+          "If you're allergic to dairy, avoid milk, cheese, yogurt, and butter. Instead, use almond milk, coconut yogurt, or dairy-free margarine.",
+          "For peanut-free recipes, you could try sunflower seed butter sandwiches, roasted chickpeas, or a quinoa and vegetable stir-fry.",
+          "If you have a soy allergy, avoid soy milk, tofu, and soy sauce. Use alternatives like almond milk or coconut aminos in your cooking."
+        ]
+      },
+      {
+        "tag": "seasonal_foods",
+        "patterns": [
+          "What fruits are in season in winter?",
+          "Which vegetables are in season in fall?",
+          "Tell me what produce is in season this spring.",
+          "What foods are in season during summer?",
+          "Can you recommend seasonal fruits for autumn?"
+        ],
+        "response": [
+          "In winter, you can enjoy citrus fruits like oranges and grapefruits, as well as root vegetables like carrots, beets, and sweet potatoes.",
+          "Fall is the season for pumpkins, squash, apples, and Brussels sprouts. It's also a great time for hearty greens like kale.",
+          "Spring brings fresh asparagus, peas, strawberries, and radishes. It's also a great time for leafy greens like spinach.",
+          "During summer, look for berries, stone fruits like peaches and cherries, tomatoes, and cucumbers.",
+          "For autumn, enjoy apples, pears, pumpkins, sweet potatoes, and figs. It's the perfect time for roasted root vegetables and hearty soups."
+        ]
+      },
+      {
+        "tag": "special_occasions",
+        "patterns": [
+          "What should I make for Thanksgiving dinner?",
+          "Give me a recipe for a Christmas dessert.",
+          "Can you suggest a menu for a birthday party?",
+          "What are some good dinner ideas for a dinner party?",
+          "What should I cook for a romantic dinner?"
+        ],
+        "response": [
+          "For Thanksgiving, a classic menu includes roast turkey, stuffing, mashed potatoes, cranberry sauce, and pumpkin pie.",
+          "For a Christmas dessert, try making gingerbread cookies, a Yule log, or a rich fruitcake.",
+          "For a birthday party, consider serving a fun taco bar, pizza, or a buffet-style meal with finger foods like sliders and wings.",
+          "For a dinner party, try serving a three-course meal: appetizer (bruschetta), main course (grilled steak or salmon), and dessert (chocolate mousse).",
+          "For a romantic dinner, you can prepare a fancy homemade pasta dish like fettuccine alfredo with garlic bread and a glass of red wine."
+        ]
+      },
+      {
+        "tag": "calories_info",
+        "patterns": [
+          "How many calories are in an apple?",
+          "What are the calories in a banana?",
+          "How many calories in a cup of rice?",
+          "How many calories in a slice of pizza?",
+          "How many calories are in a cup of coffee?"
+        ],
+        "response": [
+          "An apple contains about 95 calories on average.",
+          "A medium banana has around 105 calories.",
+          "A cup of cooked rice has about 200 calories.",
+          "A slice of pizza typically contains around 285 calories, but this can vary depending on the toppings.",
+          "A cup of black coffee has about 2 calories. Add-ins like sugar or cream will increase the calorie count."
+        ]
+      },
+      {
+        "tag": "healthy_eating_tips",
+        "patterns": [
+          "Give me a quick healthy eating tip.",
+          "What's a good snack for weight loss?",
+          "How can I eat healthier today?",
+          "Any tips for healthy breakfast options?",
+          "What should I eat for a light dinner?"
+        ],
+        "response": [
+          "Try eating whole, unprocessed foods like vegetables, fruits, and lean proteins. Always include fiber-rich foods in your meals.",
+          "For weight loss, try a handful of almonds or a small serving of Greek yogurt with berries as a snack.",
+          "To eat healthier, focus on smaller portions, eat more vegetables, and drink plenty of water throughout the day.",
+          "A healthy breakfast could be oatmeal with fruit, a smoothie with spinach and banana, or scrambled eggs with vegetables.",
+          "For a light dinner, try a salad with grilled chicken or a vegetable stir-fry with tofu."
+        ]
+      },
+      {
+        "tag": "food_serving_size",
+        "patterns": [
+          "What is a standard serving size for pasta?",
+          "How much fruit is considered one serving?",
+          "How many ounces is one serving of chicken?",
+          "What is a serving size for rice?",
+          "How much cheese is one serving?"
+        ],
+        "response": [
+          "A standard serving size for pasta is about 1 cup of cooked pasta, which is typically 2 ounces of dry pasta.",
+          "One serving of fruit is about 1 medium-sized piece, like an apple or banana, or 1/2 cup of berries or chopped fruit.",
+          "A serving of chicken is typically 3 to 4 ounces of cooked meat, about the size of a deck of cards.",
+          "A serving of rice is about 1/2 cup cooked, which is typically 1 ounce of dry rice.",
+          "A serving of cheese is generally 1 ounce, which is roughly the size of 1-2 slices or 1 small cube."
+        ]
+      },
+      {
+        "tag": "ingredient_substitutes",
+        "patterns": [
+          "What can I use instead of eggs in a recipe?",
+          "Give me a substitute for buttermilk.",
+          "What can I use instead of sugar?",
+          "What can I use instead of flour?",
+          "What can I substitute for butter?"
+        ],
+        "response": [
+          "Instead of eggs, you can use mashed bananas, applesauce, or flaxseed meal mixed with water.",
+          "If you don't have buttermilk, you can use regular milk with a tablespoon of vinegar or lemon juice.",
+          "Instead of sugar, you can use honey, stevia, or maple syrup, adjusting the quantity as needed.",
+          "Instead of flour, try using almond flour, coconut flour, or a gluten-free all-purpose flour mix.",
+          "Instead of butter, try using olive oil, avocado, or coconut oil for a healthier option."
+        ]
+      },
+      {
+        "tag": "healthy_drink_alternatives",
+        "patterns": [
+          "What are some healthy alternatives to soda?",
+          "What can I drink instead of sugary drinks?",
+          "Give me a healthy drink for energy.",
+          "What are some good drinks for hydration?",
+          "What can I drink for a detox?"
+        ],
+        "response": [
+          "Instead of soda, try sparkling water with lemon or an unsweetened iced tea.",
+          "Healthy alternatives to sugary drinks include herbal teas, water infused with fruits or cucumber, or coconut water.",
+          "For energy, try drinking green tea or a smoothie with spinach, banana, and chia seeds.",
+          "For hydration, water is the best option, but you can also drink coconut water or cucumber-infused water.",
+          "For detox, try lemon water, green tea, or a ginger and turmeric tea to support digestion and cleanse the body."
+        ]
+      },
+      {
+        "tag": "vegan_tips",
+        "patterns": [
+          "How can I start eating vegan?",
+          "Give me a quick vegan recipe.",
+          "What are some easy vegan snacks?",
+          "What's a good vegan breakfast?",
+          "Can you suggest a vegan dinner?"
+        ],
+        "response": [
+          "To start eating vegan, focus on plant-based foods like vegetables, legumes, fruits, and grains. Eliminate animal products slowly and find vegan substitutes.",
+          "A quick vegan recipe could be a tofu stir-fry with veggies, served with brown rice.",
+          "Easy vegan snacks include hummus with carrots, fruit with peanut butter, or a handful of nuts.",
+          "A good vegan breakfast could be overnight oats with almond milk, chia seeds, and berries, or a tofu scramble.",
+          "For a vegan dinner, try a chickpea curry with rice or a vegetable pasta with tomato sauce."
+        ]
+      },
+      {
+        "tag": "smoothie_ideas",
+        "patterns": [
+          "Can you give me a smoothie recipe?",
+          "What's a good smoothie for breakfast?",
+          "Give me a green smoothie idea.",
+          "What ingredients are good for a protein smoothie?",
+          "What can I put in a smoothie for energy?"
+        ],
+        "response": [
+          "A simple smoothie recipe could be: banana, spinach, almond milk, and a tablespoon of peanut butter.",
+          "For a breakfast smoothie, blend oats, banana, almond milk, and a few almonds for a filling and nutritious option.",
+          "A green smoothie idea: spinach, kale, cucumber, apple, and lemon juice.",
+          "For a protein smoothie, try blending protein powder, almond milk, banana, and chia seeds.",
+          "For an energy-boosting smoothie, use ingredients like spinach, banana, green tea, chia seeds, and a bit of honey."
+        ]
+      },
+      {
+        "tag": "quick_meal_ideas",
+        "patterns": [
+          "Give me a quick breakfast idea.",
+          "What can I make for lunch in 10 minutes?",
+          "What should I have for dinner tonight?",
+          "Give me a fast snack idea.",
+          "What can I make for a quick healthy meal?"
+        ],
+        "response": [
+          "For breakfast, try a quick smoothie, avocado toast, or scrambled eggs with spinach.",
+          "For lunch in 10 minutes, make a wrap with hummus, veggies, and a whole grain tortilla.",
+          "For dinner, consider a stir-fry with tofu and vegetables, or grilled chicken with a side salad.",
+          "For a fast snack, try apple slices with almond butter, yogurt with granola, or carrot sticks with hummus.",
+          "For a quick healthy meal, make a quinoa bowl with veggies, chickpeas, and a lemon-tahini dressing."
+        ]
+      },
+      {
+        "tag": "food_storage_times",
+        "patterns": [
+          "How long can I keep leftover chicken?",
+          "How long does cheese last in the fridge?",
+          "How long can I store fresh berries?",
+          "How long does bread last?",
+          "What's the shelf life of spinach?"
+        ],
+        "response": [
+          "Leftover chicken can be stored in the fridge for up to 3-4 days. You can freeze it for up to 4 months.",
+          "Cheese lasts about 1-2 weeks in the fridge once opened. Hard cheeses last longer than soft cheeses.",
+          "Fresh berries should be consumed within 3-5 days if stored in the fridge.",
+          "Bread lasts about 3-5 days at room temperature. For longer storage, freeze it.",
+          "Spinach lasts about 3-7 days in the fridge, depending on its freshness when purchased."
+        ]
+      },
+      {
+        "tag": "food_preparation_times",
+        "patterns": [
+          "How long does it take to cook chicken?",
+          "How long do I need to cook pasta?",
+          "How long should I cook rice?",
+          "How long do I boil eggs for?",
+          "How long to bake a potato?"
+        ],
+        "response": [
+          "It takes about 20-30 minutes to cook chicken breasts on the stove or grill, depending on thickness.",
+          "Pasta typically takes 8-12 minutes to cook, depending on the type of pasta and your preferred texture.",
+          "Cook rice for about 15-20 minutes, depending on the type of rice.",
+          "To hard-boil eggs, cook them for about 9-12 minutes in boiling water.",
+          "Bake a potato at 400°F for about 45-60 minutes until soft inside."
+        ]
+      },
+      {
+        "tag": "healthy_desserts",
+        "patterns": [
+          "Can you suggest a healthy dessert?",
+          "What can I make for a healthy dessert?",
+          "Give me a quick low-calorie dessert idea.",
+          "What's a good sugar-free dessert?",
+          "What dessert is healthy but delicious?"
+        ],
+        "response": [
+          "Try Greek yogurt with honey and fresh berries for a simple, healthy dessert.",
+          "Make a banana ice cream by blending frozen bananas into a smooth, creamy texture.",
+          "For a low-calorie dessert, try baked apples with cinnamon and a sprinkle of stevia.",
+          "A great sugar-free dessert is chia pudding made with almond milk and a bit of vanilla extract.",
+          "Dark chocolate with a few almonds is a healthy and delicious dessert option."
+        ]
+      },
+      {
+        "tag": "food_temperature",
+        "patterns": [
+          "What temperature should chicken be cooked to?",
+          "At what temperature should I serve soup?",
+          "What temperature should pasta be served at?",
+          "How hot should my steak be cooked?",
+          "What temperature should I store leftovers?"
+        ],
+        "response": [
+          "Chicken should be cooked to an internal temperature of 165°F (74°C).",
+          "Soup is best served hot, usually around 160-170°F (71-77°C).",
+          "Pasta is best served at around 140°F (60°C), right after draining and adding sauce.",
+          "For steak, cook it to your desired level of doneness: rare (120-125°F), medium-rare (130-135°F), medium (140-145°F), and well-done (160°F+).",
+          "Store leftovers in the fridge at 40°F (4°C) or lower. If freezing, ensure your leftovers are at 0°F (-18°C)."
+        ]
+      },
+      {
+        "tag": "nutrient_benefits",
+        "patterns": [
+          "What are the benefits of vitamin C?",
+          "Why is fiber important?",
+          "How does protein help the body?",
+          "What does calcium do for my body?",
+          "Why do I need iron?"
+        ],
+        "response": [
+          "Vitamin C is important for boosting immunity, promoting skin health, and helping absorb iron.",
+          "Fiber aids digestion, helps maintain a healthy weight, and lowers the risk of chronic diseases like heart disease.",
+          "Protein is essential for muscle repair and growth, and it helps maintain healthy skin, hair, and nails.",
+          "Calcium supports bone health, helps muscles function properly, and plays a role in blood clotting.",
+          "Iron is crucial for producing hemoglobin in red blood cells, which carries oxygen throughout the body."
+        ]
+      },
+      {
+        "tag": "low_carb_meals",
+        "patterns": [
+          "What can I eat for a low-carb lunch?",
+          "Give me a quick low-carb dinner idea.",
+          "What are some low-carb snacks?",
+          "What can I make for breakfast on a low-carb diet?",
+          "Give me a low-carb dinner recipe."
+        ],
+        "response": [
+          "For a low-carb lunch, try a chicken salad with avocado, olive oil dressing, and leafy greens.",
+          "A quick low-carb dinner idea is grilled salmon with roasted vegetables or a zucchini noodle stir-fry with shrimp.",
+          "Low-carb snacks include cheese slices, nuts, or hard-boiled eggs.",
+          "For a low-carb breakfast, try scrambled eggs with spinach and feta, or chia pudding with almond milk.",
+          "For a low-carb dinner, consider a grilled chicken breast with a side of sautéed cauliflower rice."
+        ]
+      },
+      {
+        "tag": "food_safety_tips",
+        "patterns": [
+          "How can I prevent food poisoning?",
+          "How do I safely store raw meat?",
+          "What’s the best way to handle leftovers?",
+          "How should I thaw frozen meat?",
+          "How do I know if my food is still safe to eat?"
+        ],
+        "response": [
+          "To prevent food poisoning, wash your hands regularly, cook meat to the proper internal temperature, and avoid cross-contamination.",
+          "Store raw meat in the refrigerator at 40°F (4°C) or lower, and keep it separate from other foods to avoid contamination.",
+          "Store leftovers in airtight containers and refrigerate them within two hours of cooking. Eat within 3-4 days.",
+          "The best way to thaw frozen meat is in the fridge or using the defrost function on your microwave. Never thaw meat on the counter.",
+          "If food smells, looks, or feels off, discard it. When in doubt, it’s safer to toss it than risk eating something spoiled."
+        ]
+      },
+      {
+        "tag": "vegan_substitutes",
+        "patterns": [
+          "What can I use instead of eggs for baking?",
+          "What can I substitute for milk in a recipe?",
+          "Give me a vegan alternative to butter.",
+          "What can I use instead of cheese for pizza?",
+          "What can I use instead of honey in a recipe?"
+        ],
+        "response": [
+          "Instead of eggs, use mashed bananas, flax eggs (1 tbsp flaxseed meal + 3 tbsp water), or chia seeds.",
+          "You can substitute milk with almond milk, soy milk, or oat milk in most recipes.",
+          "For butter, try using coconut oil, avocado, or vegan margarine as a substitute.",
+          "Instead of cheese, use vegan cheese, nutritional yeast, or a cashew cream sauce.",
+          "You can replace honey with maple syrup, agave nectar, or date syrup in recipes."
+        ]
+      },
+      {
+        "tag": "cooking_oils",
+        "patterns": [
+          "What oil is best for frying?",
+          "What’s a healthy oil to use for cooking?",
+          "Can I use olive oil for baking?",
+          "Is coconut oil good for stir-frying?",
+          "What oil should I use for salads?"
+        ],
+        "response": [
+          "For frying, vegetable oil or canola oil are ideal due to their high smoke point.",
+          "Healthy oils for cooking include olive oil (for low to medium heat), avocado oil, and coconut oil.",
+          "Yes, you can use olive oil for baking, though extra virgin olive oil has a stronger flavor.",
+          "Coconut oil is great for stir-frying, as it has a high smoke point and adds a unique flavor.",
+          "For salads, olive oil is a great choice for dressings, as it's both healthy and flavorful."
+        ]
+      },
+      {
+        "tag": "food_for_skin",
+        "patterns": [
+          "What foods are good for skin health?",
+          "Give me some foods to help with acne.",
+          "What can I eat for glowing skin?",
+          "What foods are good for anti-aging?",
+          "What can I eat to prevent wrinkles?"
+        ],
+        "response": [
+          "Foods rich in antioxidants, like berries, dark leafy greens, and nuts, are great for skin health.",
+          "For acne, try eating more zinc-rich foods like pumpkin seeds, legumes, and whole grains.",
+          "To promote glowing skin, eat foods high in vitamin C like oranges, strawberries, and bell peppers.",
+          "For anti-aging, include omega-3 fatty acids in your diet (found in fish, walnuts, and flaxseeds) and foods high in antioxidants.",
+          "To help prevent wrinkles, eat foods rich in vitamin E, like almonds, sunflower seeds, and avocados."
+        ]
+      }      
+    ]
+  }
